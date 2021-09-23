@@ -47,7 +47,7 @@ const Crypto = (props) => {
         <tr>             
             <Td>{coin.name}</Td>
             <Td>{coin.symbol}</Td>
-            <Td>${coin.price}</Td>            
+            <Td>{coin.price}</Td>            
             <Td><img src={coin.icon}/></Td> 
         </tr>)
             })}
